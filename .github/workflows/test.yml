@@ -24,4 +24,4 @@ jobs:
         pip install pytest  # Replace with your package manager and dependencies if needed
 
     - name: Run tests
-      run: pytest C:\Users\grani\Desktop\oblig2_testing\.github\workflows\test.py
+      run: pytest \Users\grani\Desktop\oblig2_testing\.github\workflows\test.py
