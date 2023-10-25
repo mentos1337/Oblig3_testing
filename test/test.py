@@ -1,3 +1,4 @@
+import pytest
 from Kalender import isLeapYear
 
 def test_is_divisible_by_4_but_not_100():
@@ -17,3 +18,6 @@ def test_is_divisible_by_100_not_div_by_400():
 
 def test_is_not_a_leap_year():
     assert isLeapYear(1700) == False
+
+if __name__ == "__main__":
+    pytest.main()
