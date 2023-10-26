@@ -18,6 +18,3 @@ def test_is_divisible_by_100_not_div_by_400():
 @pytest.mark.test
 def test_is_not_a_leap_year():
     assert isLeapYear(1700) == False
-    
-if __name__ == "__main__":
-    pytest.main()
